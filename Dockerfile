@@ -7,5 +7,4 @@
 # Pull base image.
 FROM datadog/docker-dd-agent
 
-# Add a constom datadog.conf
-ADD conf.d/elastic.yaml /etc/dd-agent/conf.d/elastic.yaml
+RUN touch /nuxeo.version
